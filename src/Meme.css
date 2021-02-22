@@ -1,0 +1,48 @@
+.Meme {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Meme img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.Meme span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    font-size: 1em;
+}
+
+.Meme-FirstLine {
+    top: 40px;
+}
+  
+.Meme-SecondLine {
+    bottom: 60px;
+}
+
+#Meme_DeleteBtn {
+    border: none;
+    font-size: 1em;
+    color: red;
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+  
+#Meme_DeleteBtn:hover {
+    background-color: rgba(0, 0, 0, 0.1);;
+    border-radius: 8px;
+}
